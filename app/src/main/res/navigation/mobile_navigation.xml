@@ -8,23 +8,23 @@
     <fragment
         android:id="@+id/nav_home"
         android:name="com.cristobalbernal.proyectofinal.ui.home.HomeFragment"
-        android:label="@string/menu_home"
+        android:label="@string/home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_gallery"
         android:name="com.cristobalbernal.proyectofinal.ui.carta.GalleryFragment"
-        android:label="Carta"
+        android:label="@string/carta"
         tools:layout="@layout/fragment_gallery" />
     <fragment
         android:id="@+id/nav_login"
-        android:name="com.cristobalbernal.proyectofinal.ui.carta.GalleryFragment"
-        android:label="Login"
-        tools:layout="@layout/fragment_gallery" />
+        android:name="com.cristobalbernal.proyectofinal.ui.login.LoginFragment"
+        android:label="@string/login"
+        tools:layout="@layout/fragment_login" />
     <fragment
         android:id="@+id/nav_register"
-        android:name="com.cristobalbernal.proyectofinal.ui.carta.GalleryFragment"
-        android:label="Register"
-        tools:layout="@layout/fragment_gallery" />
+        android:name="com.cristobalbernal.proyectofinal.ui.register.Register"
+        android:label="@string/registrar"
+        tools:layout="@layout/fragment_register" />
 
 </navigation>

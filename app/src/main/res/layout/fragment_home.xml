@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="89dp"
         android:layout_marginBottom="40dp"
-        android:text="Bienvenido A La Casa Nostra"
+        android:text="@string/bienvenido_a_la_casa_nostra"
         android:textAlignment="center"
         android:textSize="34sp"
         app:layout_constraintBottom_toTopOf="@+id/imageView2"
