@@ -13,9 +13,9 @@
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="com.cristobalbernal.proyectofinal.ui.carta.GalleryFragment"
+        android:name="com.cristobalbernal.proyectofinal.ui.carta.CartaFragment"
         android:label="@string/carta"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_carta" />
     <fragment
         android:id="@+id/nav_login"
         android:name="com.cristobalbernal.proyectofinal.ui.login.LoginFragment"
