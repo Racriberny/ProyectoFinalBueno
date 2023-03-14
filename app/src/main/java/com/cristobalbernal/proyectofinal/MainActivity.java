@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         // menu should be considered as top level destinations.
         //Aqui es donde se pone la funcion de ir!!
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_gallery)
+                R.id.nav_home, R.id.nav_gallery, R.id.nav_login,R.id.nav_register)
                 .setOpenableLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);

@@ -13,8 +13,18 @@
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="com.cristobalbernal.proyectofinal.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
+        android:name="com.cristobalbernal.proyectofinal.ui.carta.GalleryFragment"
+        android:label="Carta"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="com.cristobalbernal.proyectofinal.ui.carta.GalleryFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_register"
+        android:name="com.cristobalbernal.proyectofinal.ui.carta.GalleryFragment"
+        android:label="Register"
         tools:layout="@layout/fragment_gallery" />
 
 </navigation>
